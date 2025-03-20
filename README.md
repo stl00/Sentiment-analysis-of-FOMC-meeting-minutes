@@ -7,3 +7,8 @@ the global economy and financial markets. LSTM networks, with their ability to c
 dependencies in sequential data, are well-suited for this task. We demonstrate the efficacy of LSTM
 networks in sentiment analysis of FOMC meeting minutes. Furthermore, we attempt to extend the
 model to predict financial market movements based on the sentiment analysis results.
+
+File structure:
+
+- `Sentiment Classification.ipynb` contains the LSTM calssification model.
+- `Dataset Construction.ipynb` contains the code to construct the dictionary-method-based labels for FOMC sentences.
