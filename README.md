@@ -10,5 +10,8 @@ model to predict financial market movements based on the sentiment analysis resu
 
 File structure:
 
+- `Paper.pdf` contains the model implementation details and the main result.
 - `Sentiment Classification.ipynb` contains the LSTM calssification model.
-- `Dataset Construction.ipynb` contains the code to construct the dictionary-method-based labels for FOMC sentences.
+- `Dataset Construction.ipynb` contains the code to construct the dictionary-method-based labels for FOMC sentences. Please refer to the paper for details.
+- `Wordcloud.ipynb` is used to generate the wordcloud of most frequent words in the FOMC minutes.
+- `Pred on S&P500/VIX.ipynb` are used to build prediction model of financial indicators based on the previous classfication result.
